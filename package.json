@@ -4,7 +4,8 @@
   "description": "Eric Traub's Udemy course on building a blockchain app with JS.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier-standard 'src/**/*.js'"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/unlikechristopher/blockchain/issues"
   },
-  "homepage": "https://github.com/unlikechristopher/blockchain#readme"
+  "homepage": "https://github.com/unlikechristopher/blockchain#readme",
+  "devDependencies": {
+    "husky": "^1.2.0",
+    "lint-staged": "^8.1.0",
+    "prettier-standard": "^8.0.1"
+  }
 }
